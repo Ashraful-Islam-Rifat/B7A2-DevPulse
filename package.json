@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/app.js",
-    "dev": "tsx watch src/app.ts"
+    "dev": "ts-node-dev src/app.ts"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
